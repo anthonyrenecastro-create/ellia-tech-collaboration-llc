@@ -223,6 +223,14 @@ body {
 .status-badge.research { color: var(--gold); border-color: rgba(255, 212, 121, 0.35); background: rgba(255, 212, 121, 0.08); }
 .status-badge.dev { color: var(--accent2); border-color: rgba(77, 227, 255, 0.35); background: rgba(77, 227, 255, 0.08); }
 
+.acronym {
+  font-size: 0.55em;
+  color: var(--accent2);
+  font-weight: 700;
+  letter-spacing: 2px;
+  vertical-align: middle;
+}
+
 .aspect-lede {
   color: var(--muted);
   font-size: clamp(16px, 2vw, 18.5px);
