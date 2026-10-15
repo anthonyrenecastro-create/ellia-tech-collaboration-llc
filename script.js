@@ -68,7 +68,7 @@
   });
 
   /* ---------- Scroll reveal ---------- */
-  var revealEls = document.querySelectorAll(".aspect-head, .aspect-lede, .feature, .edge-note, .tech-row, .repo-link, .contact-inner");
+  var revealEls = document.querySelectorAll(".aspect-head, .aspect-lede, .feature, .edge-note, .tech-row, .repo-link, .price-card, .sentinel-note, .contact-inner");
   revealEls.forEach(function (el) { el.classList.add("reveal"); });
 
   if ("IntersectionObserver" in window) {
