@@ -3,15 +3,264 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Axiom Zeta Innovations LLC</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { min-height: 100vh; display: grid; place-items: center; background: #07070d; color: #e8e8f0; font-family: system-ui, sans-serif; }
-  h1 { font-weight: 300; letter-spacing: .35em; font-size: 1.1rem; text-transform: uppercase; }
-  h1 em { font-style: normal; color: #c9a227; }
-</style>
+<title>Axiom Zeta Innovations LLC — Intelligence Infrastructure</title>
+<meta name="description" content="Axiom Zeta Innovations LLC builds intelligence infrastructure for machines that live in a changing world: HRM 4.0 planetary telemetry, Quadra-Matrix edge AI, and the HyperCross crypto world-model substrate." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◈</text></svg>" />
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Axiom Zeta <em>Innovations</em></h1>
+<canvas id="starfield" aria-hidden="true"></canvas>
+
+<header class="site-nav">
+  <a class="brand" href="#top" aria-label="Axiom Zeta Innovations home">
+    <span class="brand-mark">◈</span>
+    <span class="brand-name">Axiom Zeta <em>Innovations</em></span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#telemetry">Telemetry</a>
+    <a href="#edge">Edge AI</a>
+    <a href="#crypto">Crypto Substrate</a>
+    <a href="#sentinel">Sentinel</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="kicker">Axiom Zeta Innovations LLC</p>
+      <h1>Intelligence infrastructure<br />for machines that live<br /><span class="glow">in a changing world.</span></h1>
+      <p class="lede">Three systems, one thesis: software that observes, predicts, and adapts — from planetary-scale telemetry to edge-deployed neural controllers to a living crypto market substrate.</p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="#telemetry">Explore the systems</a>
+        <a class="btn-ghost" href="#contact">Talk to us</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><strong>03</strong><span>Core systems</span></div>
+        <div class="stat"><strong>02</strong><span>Working prototypes</span></div>
+        <div class="stat"><strong>01</strong><span>Thesis</span></div>
+      </div>
+    </div>
+    <a class="scroll-hint" href="#telemetry" aria-label="Scroll to systems">↓</a>
+  </section>
+
+  <!-- ASPECT 01 : TELEMETRY -->
+  <section class="aspect" id="telemetry">
+    <div class="aspect-inner">
+      <div class="aspect-head">
+        <span class="aspect-index">01</span>
+        <div>
+          <p class="aspect-kicker">Syzygy-PMT · Planetary AI Telemetry Engine</p>
+          <h2>Syzygy Planetary<br />Manifold Telemetry</h2>
+        </div>
+        <span class="status-badge live">Working prototype</span>
+      </div>
+      <p class="aspect-lede">A dual-world-model telemetry workbench built on the Helical Recursive Manifold: one world reconstructs what <em>is</em> happening across the network, the other simulates what <em>could</em> happen next — and scores the divergence between them in real time. Named for <em>syzygy</em> — the moment twin bodies align.</p>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Dual-world counterfactual twin</h3>
+          <p>Model A reconstructs ground-truth observational state from packet-delayed telemetry; Model B projects a +500&nbsp;ms speculative trajectory — forecasting buffer bloat, thermal throttling, and routing shifts before they land. Continuous divergence scoring flags when the future stops matching the plan.</p>
+        </article>
+        <article class="feature">
+          <h3>Non-Euclidean state-space propagation</h3>
+          <p>State advances on a helical manifold: graph-Laplacian diffusion coupled with Duffing-Landau cubic reaction dynamics, stabilized by projection operators and bounded by admissible physical limits. The math is the product — not a dashboard skin over one.</p>
+        </article>
+        <article class="feature">
+          <h3>Conservation of Explanation ledger</h3>
+          <p>Every state transition carries an attribution ledger — each delta must account for itself across event, correction, and transport terms. If the books don't balance within tolerance, the step doesn't ship. Inspectable, auditable telemetry.</p>
+        </article>
+        <article class="feature">
+          <h3>Server-side Gemini synthesis</h3>
+          <p>Gemini models synthesize telemetry narratives server-side: the engine computes, the model explains. A planetary canvas visualizes the carrier complex while inspectors drill into nodes, events, and ledger entries.</p>
+        </article>
+      </div>
+      <div class="tech-row" aria-label="Technology stack">
+        <span>TypeScript</span><span>React</span><span>Vite</span><span>Express</span><span>Gemini API</span><span>Graph Laplacian Dynamics</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASPECT 02 : EDGE AI -->
+  <section class="aspect alt" id="edge">
+    <div class="aspect-inner">
+      <div class="aspect-head">
+        <span class="aspect-index">02</span>
+        <div>
+          <p class="aspect-kicker">Edge Computing · Drone Control</p>
+          <h2>Quadra Kestrel</h2>
+        </div>
+        <span class="status-badge research">Research system</span>
+      </div>
+      <p class="aspect-lede">Quadra Kestrel is powered by the <em>Quadra-Matrix-A.I. system</em> — spiking neural networks with symbolic reasoning and neuroplasticity — wrapped in a full machine-learning workflow built for the edge: train, test, ship, and run on constrained hardware, including autonomous drone controllers.</p>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Complete training workflow</h3>
+          <p>End-to-end training scripts with live dashboards, ablation guides, and training-metrics pipelines — from oscillatory synapse theory through neuroplasticity-accelerated convergence, all instrumented and reproducible.</p>
+        </article>
+        <article class="feature">
+          <h3>Enterprise API &amp; dashboards</h3>
+          <p>Service layers and web dashboards expose the trained system for integration: monitor field state, stream inference, and inspect model behavior without touching the training harness.</p>
+        </article>
+        <article class="feature">
+          <h3>Testing frameworks</h3>
+          <p>Dedicated test suites and testing summaries guard every stage of the pipeline — the system is built to be falsified, not just demoed.</p>
+        </article>
+        <article class="feature">
+          <h3>Docker &amp; Kubernetes deployment</h3>
+          <p>Containerized builds with Docker Compose for local runs and Kubernetes manifests for cluster deployment — the same intelligence, from workstation to edge node to fleet.</p>
+        </article>
+      </div>
+      <div class="edge-note">
+        <strong>Edge application track — autonomous drone control:</strong> the edge-optimized builds target AI model integration for flight controllers, with flight-control documentation and specialized software components for machines that must decide in milliseconds, offline.
+      </div>
+      <div class="tech-row" aria-label="Technology stack">
+        <span>Python</span><span>Spiking Neural Networks</span><span>Docker</span><span>Kubernetes</span><span>Edge AI</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASPECT 03 : CRYPTO -->
+  <section class="aspect" id="crypto">
+    <div class="aspect-inner">
+      <div class="aspect-head">
+        <span class="aspect-index">03</span>
+        <div>
+          <p class="aspect-kicker">Crypto World-Model Substrate</p>
+          <h2>Cryptocurrency<br />Augury Prism <span class="acronym">(CAP)</span></h2>
+        </div>
+        <span class="status-badge dev">In development</span>
+      </div>
+      <p class="aspect-lede">A resilient world-model substrate for crypto markets: live exchange data, macro indicators, and on-chain signals flow into multi-mechanism market arbitration, with server-side Gemini synthesis turning the noise into automated analysis and multi-horizon forecasts.</p>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Live exchange &amp; on-chain feeds</h3>
+          <p>Coinbase API integration plus real-time on-chain and sentiment feeds keep the world-model anchored to what's actually happening — not yesterday's snapshot.</p>
+        </article>
+        <article class="feature">
+          <h3>Macro indicators &amp; arbitration</h3>
+          <p>Macro-economic indicators feed multi-mechanism market arbitration: competing signals are weighed against each other instead of averaged into mush.</p>
+        </article>
+        <article class="feature">
+          <h3>Gemini synthesis &amp; forecasts</h3>
+          <p>Server-side Gemini LLM synthesis converts fused market state into automated crypto market analysis and multi-horizon forecasts — readable by humans, consumable by machines.</p>
+        </article>
+        <article class="feature">
+          <h3>React · Vite · Express</h3>
+          <p>A modern web application stack: a fast Vite + React frontend over an Express substrate, built for real-time data and resilient operation.</p>
+        </article>
+      </div>
+      <div class="tech-row" aria-label="Technology stack">
+        <span>React</span><span>Vite</span><span>Express</span><span>Coinbase API</span><span>Gemini API</span><span>On-chain Feeds</span>
+      </div>
+      <div class="pricing-grid" style="margin-top:28px">
+        <article class="price-card">
+          <h3>Cryptocurrency Augury Prism</h3>
+          <p class="price-tier">Market intelligence workbench · For crypto operators</p>
+          <p class="price-amount">$49.99<small> / mo</small></p>
+          <p class="price-desc">Live Coinbase data through seven independent analysis mechanisms — sentiment, macro, on-chain flows, market structure, risk, stablecoin flows, plus a Gemini LLM analyst — with an honest backtest auditor that runs on real historical candles and shows its limits in plain language.</p>
+          <ul class="price-features">
+            <li>Live market view: BTC, ETH, SOL, AVAX, DOGE with RSI-14, ATR, Bollinger</li>
+            <li>Seven-mechanism signal arbitration with explanation ledger</li>
+            <li>Backtest auditor on real Coinbase history — net vs gross, Sharpe, drawdown</li>
+            <li>Gemini LLM market analyst with clearly-labeled heuristic fallbacks</li>
+            <li>Not financial advice — experimental outputs, labeled as such</li>
+          </ul>
+          <div class="price-actions">
+            <a class="btn-gold" href="https://buy.stripe.com/fZu8wReAUbVd3oa1KF18c0r" target="_blank" rel="noreferrer">Subscribe — $49.99/mo</a>
+          </div>
+        </article>
+      </div>
+      <p class="sentinel-note"><strong>How billing works:</strong> after Stripe checkout you land on the app's welcome page, which verifies your subscription and unlocks access. Cancel anytime.</p>
+    </div>
+  </section>
+
+  <!-- PRODUCTS : SENTINEL -->
+  <section class="aspect alt" id="sentinel">
+    <div class="aspect-inner">
+      <div class="aspect-head">
+        <span class="aspect-index">◈</span>
+        <div>
+          <p class="aspect-kicker">Axiom Zeta Sentinel · AI Reliability Products</p>
+          <h2>Sentinel</h2>
+        </div>
+        <span class="status-badge live">Available now</span>
+      </div>
+      <p class="aspect-lede">Drift prevention gateways for LLM and RAG systems. Sentinel learns a per-tenant baseline from your metric streams, then stabilizes every call and returns a drift score with a clear action: <em>pass, clamp, retry, fallback-model, or human-review.</em> Billed monthly via Stripe — cancel anytime, API key auto-provisioned after checkout.</p>
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h3>Sentinel Solo</h3>
+          <p class="price-tier">For individual builders · Developer edition</p>
+          <p class="price-amount">$59.99<small> / mo</small></p>
+          <p class="price-desc">The developer gateway for LLM and RAG drift prevention. Sentinel Solo learns a per-tenant baseline from your metric streams, then stabilizes every call and returns a drift score with a clear action.</p>
+          <ul class="price-features">
+            <li>Stabilize, feedback, baseline-reset, and telemetry APIs</li>
+            <li>Baseline learned over 5 windows per tenant</li>
+            <li>24-D bounded stabilized vector with drift diagnostics</li>
+            <li>Bundled GUI playground</li>
+            <li>Stripe billing with API key auto-provisioned after checkout</li>
+          </ul>
+          <div class="price-actions">
+            <a class="btn-gold" href="https://buy.stripe.com/dRm6oJ8cw6AT3oa1KF18c0a" target="_blank" rel="noreferrer">Subscribe — $59.99/mo</a>
+            <a class="price-gui" href="https://axiom-zeta-sentinel-solo.onrender.com" target="_blank" rel="noreferrer">Open the live gateway GUI →</a>
+          </div>
+        </article>
+        <article class="price-card">
+          <h3>Sentinel Teams</h3>
+          <p class="price-tier">For teams running RAG in production</p>
+          <p class="price-amount">$89.99<small> / mo</small></p>
+          <p class="price-desc">Everything in Solo, organized for a team. Organizations, workspaces, member roles, and workspace API keys, with audit logging and analytics so you can see where drift spiked and which baselines need attention.</p>
+          <ul class="price-features">
+            <li>Everything in Sentinel Solo</li>
+            <li>Organizations, workspaces, and role-based access</li>
+            <li>Workspace API keys shown once at creation</li>
+            <li>Audit log and workspace analytics</li>
+            <li>Stripe billing per workspace with auto-provisioned keys</li>
+          </ul>
+          <div class="price-actions">
+            <a class="btn-gold" href="https://buy.stripe.com/3cI6oJ0K48J12k6ahb18c0b" target="_blank" rel="noreferrer">Subscribe — $89.99/mo</a>
+            <a class="price-gui" href="https://axiom-zeta-sentinel-teams.onrender.com" target="_blank" rel="noreferrer">Open the live gateway GUI →</a>
+          </div>
+        </article>
+        <article class="price-card">
+          <h3>Sentinel Sovereign</h3>
+          <p class="price-tier">Enterprise preview · Sovereign deployments</p>
+          <p class="price-amount">$119.99<small> / mo</small></p>
+          <p class="price-desc">The enterprise preview of Sentinel. OIDC, policy engine, Redis-backed state, and Kubernetes and airgap controls on top of Teams. In the current MVP these are configuration-gated previews, not yet a certified production enterprise tier.</p>
+          <ul class="price-features">
+            <li>Everything in Sentinel Teams</li>
+            <li>OIDC login and session flows (config-gated in MVP)</li>
+            <li>Policy engine and egress controls (preview)</li>
+            <li>Redis HA state and Kubernetes operator scaffolding</li>
+            <li>Airgap and operations runbooks included</li>
+          </ul>
+          <div class="price-actions">
+            <a class="btn-gold" href="https://buy.stripe.com/8x24gB64o2kDe2O3SN18c0c" target="_blank" rel="noreferrer">Subscribe — $119.99/mo</a>
+            <a class="price-gui" href="https://axiom-zeta-sentinel-sovereign.onrender.com" target="_blank" rel="noreferrer">Open the live gateway GUI →</a>
+          </div>
+        </article>
+      </div>
+      <p class="sentinel-note"><strong>How billing works:</strong> after Stripe checkout, your API key is provisioned automatically. Retrieve it once in the gateway GUI under Billing.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <p class="kicker">Contact</p>
+      <h2>Build with us.</h2>
+      <p class="lede">Partnerships, pilots, and research collaboration across telemetry, edge AI, and market intelligence.</p>
+      <a class="btn-primary" href="mailto:anthony.castro@axiomzetainnovations.com?subject=Axiom%20Zeta%20Innovations%20—%20inquiry">anthony.castro@axiomzetainnovations.com</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span>◈ Axiom Zeta Innovations LLC</span>
+  <span class="foot-note">Intelligence infrastructure for a changing world.</span>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
