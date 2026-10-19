@@ -10,8 +10,8 @@
   --text: #f6eee1;
   --muted: #bfa88f;
   --faint: #8a745f;
-  --red: #d92038;
-  --red-deep: #7f1d2a;
+  --red: #e63956;
+  --red-deep: #a11f33;
   --gold: #c9a227;
   --gold-bright: #eccb7a;
   --gold-deep: #8a6a2f;
@@ -44,7 +44,7 @@ body {
   height: 100%;
   z-index: -1;
   background:
-    radial-gradient(1000px 620px at 82% -8%, rgba(127, 29, 42, 0.38) 0%, transparent 60%),
+    radial-gradient(1000px 620px at 82% -8%, rgba(161, 31, 51, 0.38) 0%, transparent 60%),
     radial-gradient(900px 700px at 8% 12%, rgba(76, 29, 149, 0.30) 0%, transparent 60%),
     radial-gradient(1200px 900px at 50% 110%, rgba(201, 162, 39, 0.10) 0%, transparent 55%),
     var(--bg);
@@ -175,9 +175,9 @@ body {
 .btn-primary {
   background: linear-gradient(105deg, var(--red-deep), var(--red) 55%, #f04a5e);
   color: #fff8f0;
-  box-shadow: 0 10px 34px rgba(217, 32, 56, 0.32);
+  box-shadow: 0 10px 34px rgba(230, 57, 86, 0.32);
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 44px rgba(217, 32, 56, 0.48); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 14px 44px rgba(230, 57, 86, 0.48); }
 
 .btn-ghost {
   border: 1px solid var(--line);
@@ -286,7 +286,7 @@ body {
 }
 .status-badge.live { color: var(--gold-bright); border-color: rgba(201, 162, 39, 0.45); background: rgba(201, 162, 39, 0.08); }
 .status-badge.research { color: var(--purple-bright); border-color: rgba(139, 92, 246, 0.4); background: rgba(139, 92, 246, 0.08); }
-.status-badge.dev { color: #ff8a96; border-color: rgba(217, 32, 56, 0.4); background: rgba(217, 32, 56, 0.08); }
+.status-badge.dev { color: #ff9aa8; border-color: rgba(230, 57, 86, 0.4); background: rgba(230, 57, 86, 0.08); }
 
 .acronym {
   font-size: 0.52em;

@@ -26,7 +26,7 @@
         hue: (function () {
           var r = Math.random();
           if (r < 0.45) return "201,162,39";   // gold
-          if (r < 0.75) return "217,32,56";    // crimson
+          if (r < 0.75) return "230,57,86";    // crimson
           return "139,92,246";                 // metallic purple
         })()
       });
