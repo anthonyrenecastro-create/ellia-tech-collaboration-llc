@@ -23,7 +23,12 @@
         vx: (Math.random() - 0.5) * 0.12,
         vy: (Math.random() - 0.5) * 0.12,
         tw: Math.random() * Math.PI * 2,
-        hue: Math.random() < 0.12 ? "77,227,255" : "150,160,255"
+        hue: (function () {
+          var r = Math.random();
+          if (r < 0.45) return "201,162,39";   // gold
+          if (r < 0.75) return "217,32,56";    // crimson
+          return "139,92,246";                 // metallic purple
+        })()
       });
     }
   }
@@ -50,6 +55,15 @@
   initStars();
   tick();
   window.addEventListener("resize", function () { resize(); initStars(); });
+
+  /* ---------- Scroll-aware nav (transparent → blurred, per reference) ---------- */
+  var nav = document.querySelector(".site-nav");
+  function onScroll() {
+    if (window.scrollY > 50) nav.classList.add("scrolled");
+    else nav.classList.remove("scrolled");
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
 
   /* ---------- Mobile nav ---------- */
   var toggle = document.getElementById("navToggle");
