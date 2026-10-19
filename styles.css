@@ -454,6 +454,27 @@ body {
 .sentinel-note { color: var(--muted); font-size: 14.5px; max-width: 740px; }
 .sentinel-note strong { color: var(--text); }
 
+/* ---------- HORIZONTAL PRICE CARD (single-product sections) ---------- */
+.price-card.horizontal {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 44px;
+  align-items: center;
+  padding: 38px 40px;
+}
+.price-card.horizontal .price-features { margin-bottom: 0; }
+.ph-buy {
+  text-align: center;
+  border-left: 1px solid var(--line-soft);
+  padding-left: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.ph-buy .price-amount { margin-bottom: 14px; }
+.ph-buy .price-actions { width: 100%; max-width: 300px; }
+
 /* ---------- CONTACT ---------- */
 .contact { padding: 130px 24px; text-align: center; }
 .contact-inner { max-width: 720px; margin: 0 auto; }
@@ -483,6 +504,8 @@ body {
 @media (max-width: 760px) {
   .feature-grid { grid-template-columns: 1fr; }
   .pricing-grid { grid-template-columns: 1fr; max-width: 520px; margin-left: auto; margin-right: auto; }
+  .price-card.horizontal { grid-template-columns: 1fr; gap: 26px; padding: 30px 26px; }
+  .ph-buy { border-left: none; border-top: 1px solid var(--line-soft); padding-left: 0; padding-top: 26px; }
   .nav-links {
     display: none;
     position: absolute;
