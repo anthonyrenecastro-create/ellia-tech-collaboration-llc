@@ -29,8 +29,8 @@ Below that, this company's own systems:
    each other, and writes briefings in plain English. It tests itself
    against real past prices and shows the results, good and bad. Not
    financial advice.
-3. **Syzygy Planetary Manifold Telemetry** (working prototype) — a weather
-   forecast for computer networks. It keeps two pictures of a network —
+3. **Syzygy Planetary Manifold Telemetry** (working prototype) — an oracle
+   view of computer networks. It keeps two pictures of a network —
    what is happening now and what is likely to happen next — and flags the
    moment they stop matching, so problems get caught early.
 4. **Quadra Kestrel** (research system) — AI that runs on the device
