@@ -18,7 +18,8 @@ Four research tracks, plus the mission and contact:
    N ∈ {5, 12}; no branch pinned down. Describe-only; no public repo link.
 3. **Phase Recursion Ontology Research Track** — the foundational framework,
    published as a monograph by Anthony Rene Castro (v1.0, August 2026,
-   DOI 10.5281/zenodo.22046543); book available via axiom-and-ash.com.
+   DOI 10.5281/zenodo.22046543); book available at
+   transcendentrecursion.online/edition/phase ($6.99).
 4. **QuadraSeer Research Track** — sovereign AI that runs on the device:
    Quadra-Seer Sovereign (free download, github.com/axiomzeta),
    Quadra-M.I.N.D. Sight, and Quadra Kestrel edge AI research.
