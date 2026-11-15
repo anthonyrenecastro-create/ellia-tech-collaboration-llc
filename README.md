@@ -8,7 +8,7 @@ and understand what each thing does.
 
 ## What the site covers
 
-Four research tracks, plus the mission and contact:
+Five research tracks, plus the mission and contact:
 
 1. **Harmonium Research Track** — SetSilk Bio-C smart-skin materials for
    energy devices (10 cm × 10 cm sensing patch, 16–64 sensing regions).
@@ -23,6 +23,10 @@ Four research tracks, plus the mission and contact:
 4. **QuadraSeer Research Track** — sovereign AI that runs on the device:
    Quadra-Seer Sovereign (free download, github.com/axiomzeta),
    Quadra-M.I.N.D. Sight, and Quadra Kestrel edge AI research.
+5. **Interplayed Field Theory (IFT)** — ten-field coupled-PDE framework for
+   pattern formation; six papers on Zenodo (DOI 10.5281/zenodo.20585142)
+   plus the live quantum experiment at
+   ift-quantum-m-enhanced.vercel.app.
 
 ## Stack
 
